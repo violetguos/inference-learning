@@ -1,4 +1,3 @@
-
 #########Github's gitignore template for python#######
 # Byte-compiled / optimized / DLL files
 __pycache__/
