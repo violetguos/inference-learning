@@ -1,4 +1,12 @@
 # note: please make your own directory under A1 to avoid conflict
+
+
+## assignment deadlines
+* ~Assignment 1: Due Feb 2nd~ 
+* Assignment 2: Due Mar 16th
+* Assignment 3: Due April 6th
+
+
 # RESULTS A1
 
 ## Loss on Q1 KNN
@@ -45,12 +53,3 @@ k | 1 | 5 | 10 | 25 | 50 | 100 | 200
 train |  0 | 70| 73 | 125 | 132 | 163 | 205
 test |  7 | 9 | 10 | 11 | 13 | 13 | 21 
 valid | 8 | 8 | 10 | 9 | 10 | 13 | 20
-
-
-## assignment deadlines
-* Assignment 1: Due Feb 2nd
-* Assignment 2: Due Mar 16th
-* Assignment 3: Due April 6th
-
-## TO DO list for the team
-- [ ] display the failure case
