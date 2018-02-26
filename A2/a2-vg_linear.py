@@ -29,7 +29,7 @@ b = tf.Variable(0.0, name='biases')
 y = tf.placeholder(tf.float32, shape=[x_dim, 1], name='targetY')
 
 #compute the current y_hat
-y_hat =  tf.matmul(x, W)
+y_hat =  tf.matmul(x, W) + b
 #compute the current loss
 mseCurr = linearMSE(y_hat, y)
 #compute the decay/regularization term
