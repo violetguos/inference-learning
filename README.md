@@ -13,3 +13,6 @@
 - [ ] W* using the normal equation
 * Part 2 logisitc regression
 - [ ] SGD with cross entropy
+* Part 3 multi class logistic
+- [ ] 10 classes notMINIST
+- [ ] 6 classes for FaceSrcub
