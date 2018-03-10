@@ -1,0 +1,1 @@
+- [ ] PLot MSE instead of logisitic loss for part 2
