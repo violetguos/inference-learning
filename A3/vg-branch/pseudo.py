@@ -32,8 +32,16 @@ learningRateArr = [0.001, 0.01, 0.005]
 
 def buildNetwork():
 	# TODO: initialize nodes, connect weight edges
+	# ANS: do so by init layer weight(x_size_prev, hidden_size)
 	# Relu Layer
+	layer_1 = tf.add(wtx, bias)
+	layer_1 = tf.nn.relu(layer_1)
+	layer_1 = tf.nn.dropout(layer_1, prob = 0.5)
+	out_layer = wtx + bias
 
+cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=predictions, labels=y))
+
+optimizer = tf.train.AdamOptimizer(learning_rate=0.0001).minimize(cost)
 
 
 	
