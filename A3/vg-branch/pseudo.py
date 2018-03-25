@@ -44,5 +44,30 @@ cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=predictions
 optimizer = tf.train.AdamOptimizer(learning_rate=0.0001).minimize(cost)
 
 
+# part 3
+
+#random sampes using numpy
+logLearningRate = np.random.uniform(-7.5, -4.5)
+learningRate = np.exp(logLearningRate)
+numLayers = np.random.uniform(1, 5)
+numHiddenUnits = np.random.uniform(100, 500)
+logWeightedDecay = np.random.uniform(-9, -6)
+weightedDecay = np.exp(logWeightedDecay)
+dropOut = np.random.random_integers(0, 1)
+
+
+
+class neuralNetwork:
+    def __init__(self, _randomSeed, _learningRate, _numLayers, _numHiddenUnits, _weightedDecay, _dropout):
+        self.randomSeed = _randomSeed
+        self.learningRate = _learningRate
+        self.numLayers = _numLayers
+        self.numHiddenUnits = _numHiddenUnits
+        self.weightedDecay = _weightedDecay
+        self.dropout = _dropout
+        
+    
+
+
 	
 
