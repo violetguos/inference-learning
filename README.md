@@ -1,4 +1,5 @@
 # note: please make your own directory under A1 to avoid conflict
+- [ ] TODO: add epoch calculation https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/4_Utils/save_restore_model.py
 
 
 ## assignment deadlines
