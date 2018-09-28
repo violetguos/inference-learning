@@ -10,8 +10,8 @@ ECE521 was a grad/undergrad intro machine learning course, with an emphasis on t
 ### A3: fully connected NN
 
 Implemented
-* [Dropout]() - prevent overfitting
-* [Randomized architecture]() -
+* [Dropout](https://github.com/violetguos/inference-learning/blob/master/A3/vg-branch/a3-vg.ipynb) - prevent overfitting
+* [Randomized architecture](https://github.com/violetguos/inference-learning/blob/master/A3/vg-branch/a3-vg.ipynb) -
 
 
 ### Installation
