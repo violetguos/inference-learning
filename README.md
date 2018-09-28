@@ -1,5 +1,5 @@
 # ECE521 Inference Learning Algorithm
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Build Status]()]()
 
 ECE521 was a grad/undergrad intro machine learning course, with an emphasis on tensorflow programming.
 
