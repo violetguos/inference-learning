@@ -1,11 +1,19 @@
-# note: please make your own directory under A1 to avoid conflict
-- [ ] TODO: add epoch calculation https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/4_Utils/save_restore_model.py
+# ECE521 Inference Learning Algorithm
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+ECE521 was a grad/undergrad intro machine learning course, with an emphasis on tensorflow programming.
+
+  - A1: knn in tensorflow
+  - A2: logistic regression in tensorflow
+  - A3: fully connected NN
+
+### A3: fully connected NN
+
+Implemented
+* [Dropout]() - prevent overfitting
+* [Randomized architecture]() -
 
 
-## assignment deadlines
-* ~Assignment 1: Due Feb 2nd~ 
-* ~Assignment 2: Due Mar 16th~
-* Assignment 3: Due April 6th
+### Installation
 
-
-## A3 to-dos
+Install Tensorflow with Conda
