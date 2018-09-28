@@ -1,5 +1,5 @@
 # ECE521 Inference Learning Algorithm
-[![Build Status]()]()
+[![Build Status](https://github.com/violetguos/inference-learning/blob/master/A3/vg-branch/a3-vg.ipynb)](https://github.com/violetguos/inference-learning/blob/master/A3/vg-branch/a3-vg.ipynb)
 
 ECE521 was a grad/undergrad intro machine learning course, with an emphasis on tensorflow programming.
 
